@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm hardhat compile:*)",
+      "Bash(cat:*)",
+      "Bash(pnpm test:*)",
+      "Bash(pnpm hardhat test:*)",
+      "Bash(npm test:*)",
+      "Bash(npx hardhat test:*)",
+      "Bash(npx hardhat vars:*)",
+      "Bash(npx hardhat run:*)",
+      "Bash(npx hardhat deploy:*)",
+      "Bash(npx hardhat verify:*)",
+      "Bash(npx tsc:*)",
+      "Bash(git clone:*)",
+      "Bash(pnpm add:*)",
+      "Bash(node:*)",
+      "Bash(echo \"请在浏览器控制台执行以下命令清除旧缓存：\nlocalStorage.clear\\(\\)\nlocation.reload\\(\\)\")",
+      "Bash(curl:*)",
+      "Bash(npm run dev:*)"
+    ]
+  }
+}

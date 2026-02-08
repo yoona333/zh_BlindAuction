@@ -1,6 +1,6 @@
 [submodule "fhevm-hardhat-template"]
 	path = fhevm-hardhat-template
-	url = https://github.com/zama-ai/fhevm-hardhat-template.git
+	url = https://github.com/yoona333/fhevm-hardhat-template.git
 [submodule "zh-blindauction"]
 	path = zh-blindauction
 	url = https://github.com/yoona333/zh-blindauction.git

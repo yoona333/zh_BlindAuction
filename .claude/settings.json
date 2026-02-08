@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe -Command \"Stop-Process -Id 42488 -Force; Stop-Process -Id 34660 -Force; Stop-Process -Id 51716 -Force; Stop-Process -Id 39144 -Force\")"
+    ]
+  }
+}

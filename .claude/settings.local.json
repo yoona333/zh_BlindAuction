@@ -21,7 +21,39 @@
       "Bash(node:*)",
       "Bash(echo \"请在浏览器控制台执行以下命令清除旧缓存：\nlocalStorage.clear\\(\\)\nlocation.reload\\(\\)\")",
       "Bash(curl:*)",
-      "Bash(npm run dev:*)"
+      "Bash(npm run dev:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(robocopy:*)",
+      "Bash(xcopy:*)",
+      "Bash(npx hardhat compile)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(pnpm exec hardhat:*)",
+      "Bash(echo:*)",
+      "Bash(taskkill:*)",
+      "Bash(ping:*)",
+      "Bash(timeout:*)",
+      "WebFetch(domain:sepolia.etherscan.io)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:docs.zama.org)",
+      "Bash(npx hardhat node)",
+      "Bash(npx hardhat:*)",
+      "Bash(git add:*)",
+      "Bash(git reset:*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "请先阅读 CLAUDE.md 和 DEVELOPMENT_STANDARDS.md 了解项目背景和开发规范。这是一个基于 FHEVM 的去中心化盲拍平台（BlindAuction），部署在 Sepolia 测试网。"
+          }
+        ]
+      }
     ]
   }
 }

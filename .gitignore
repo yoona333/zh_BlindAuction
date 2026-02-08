@@ -1,0 +1,132 @@
+# ================================
+# Node.js 依赖
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+
+# ================================
+# 构建产物
+# ================================
+dist/
+build/
+out/
+*.log
+
+# 前端构建产物
+zh-blindauction/dist/
+zh-blindauction/.vite/
+
+# Hardhat 构建产物
+fhevm-hardhat-template/artifacts/
+fhevm-hardhat-template/cache/
+fhevm-hardhat-template/typechain-types/
+
+# ================================
+# 环境变量和敏感信息
+# ================================
+.env
+.env.local
+.env.*.local
+*.secret
+*.key
+.secrets/
+
+# Hardhat 配置变量（包含私钥）
+fhevm-hardhat-template/.env
+fhevm-hardhat-template/vars.json
+
+# ================================
+# IDE 和编辑器配置
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# VSCode 用户设置（保留工作区设置）
+.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# ================================
+# 操作系统文件
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ================================
+# 测试覆盖率
+# ================================
+coverage/
+*.lcov
+.nyc_output/
+
+# ================================
+# 临时文件
+# ================================
+*.tmp
+*.temp
+.cache/
+.temp/
+tmp/
+
+# ================================
+# 部署相关
+# ================================
+# 保留 deployments/sepolia/ 用于记录已部署的合约地址
+# 但忽略本地部署
+fhevm-hardhat-template/deployments/localhost/
+fhevm-hardhat-template/deployments/hardhat/
+
+# ================================
+# TypeScript
+# ================================
+*.tsbuildinfo
+
+# ================================
+# 锁文件（可选择性保留）
+# ================================
+# 如果团队使用不同包管理器，可取消注释以下某一行
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ================================
+# 其他
+# ================================
+# 备份文件
+*.bak
+*.backup
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+
+# 日志文件
+logs/
+*.log
+
+# FHEVM 缓存
+.fhevm/
+
+# Claude Code 本地配置（保留项目级配置）
+.claude/settings.local.json
+.claude/plans/
+
+# 测试文件
+nul

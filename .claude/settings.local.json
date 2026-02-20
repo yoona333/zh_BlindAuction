@@ -52,7 +52,12 @@
       "Bash(powershell.exe -Command \"Get-Process | Where-Object {$_ProcessName -eq ''node''} | ForEach-Object { Stop-Process -Id $_Id -Force }\")",
       "Bash(dir:*)",
       "Bash(test:*)",
-      "Bash(python -m json.tool:*)"
+      "Bash(python -m json.tool:*)",
+      "Bash(test-checklist.sh:*)",
+      "Bash(__NEW_LINE_d572e178bdfb41a1__ chmod +x test-checklist.sh)",
+      "Bash(bash test-checklist.sh)",
+      "Bash(HOOKSDIR=\"d:\\\\zh-projects\\\\BlindAuction\\\\zh-blindauction\\\\src\\\\hooks\")",
+      "Bash(python3:*)"
     ]
   },
   "hooks": {

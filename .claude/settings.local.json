@@ -57,7 +57,8 @@
       "Bash(__NEW_LINE_d572e178bdfb41a1__ chmod +x test-checklist.sh)",
       "Bash(bash test-checklist.sh)",
       "Bash(HOOKSDIR=\"d:\\\\zh-projects\\\\BlindAuction\\\\zh-blindauction\\\\src\\\\hooks\")",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(cast call:*)"
     ]
   },
   "hooks": {
